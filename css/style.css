@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    width: 740px;
+    font-family: 'Roboto', sans-serif
+    
+}
+
+
+header
+{
+    color: rgba(0, 0, 0, 0.808);
+    text-shadow: 10px 10px 10px rgb(255, 255, 255);
+    background: url(https://img.freepik.com/fotos-gratis/cloudscape-fantastica_1232-490.jpg?w=740&t=st=1678830559~exp=1678831159~hmac=68db81da757993b6a6fab1e39afa661e83d2562cb29d83f5204b78af89c01f08);
+
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    justify-content: center;
+   
+    
+}
+
+header h1
+{
+    font-size: 60px;
+    text-shadow: -10px black;
+}
+
+header p
+{
+    font-size: 24px;
+  
+}
+
+
+
+#tecnologias
+{
+    
+    
+    background-position: 100px;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    
+    border-left: solid 10px rebeccapurple;
+  
+}
+
+
+/*HTML*/
+
+#html
+{
+    max-width: 200px;
+    margin-right: px;
+    margin-left: -230px;
+}
+
+#html img
+{
+    width: 50px;  
+    margin-left: 345px;
+    
+}
+
+
+
+.sobre
+{
+    margin-top: 10px;
+  
+}
+
+
+#css
+{
+    max-width: 300px;
+    margin-left: 40px
+}
+/*CSS*/
+
+#css img
+{
+    margin-left: 345px;
+    width: 50px;  
+}
+
+
+
+/*JavaScript*/
+#js
+{
+    max-width: 300px;
+    margin-left: -50px;
+}
+#js img
+{
+    margin-left: 300px;
+    width: 100px;
+    margin-right: 35px;
+}
+
+
+ 
+
