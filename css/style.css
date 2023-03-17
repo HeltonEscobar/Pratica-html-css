@@ -1,8 +1,8 @@
 *
 {
     margin: 0;
-    width: 740px;
-    font-family: 'Roboto', sans-serif
+
+    font-family: 'Roboto', sans-serif;;
     
 }
 
@@ -20,9 +20,19 @@ header
     
     text-align: center;
     justify-content: center;
-   
+    width: 740px;
     
 }
+main, footer, header
+{
+    background-color: rgb(228, 225, 225);
+}
+
+footer i
+{
+    background-color: rgb(255, 255, 255);;
+}
+
 
 header h1
 {
@@ -48,45 +58,57 @@ header p
     margin-top: 50px;
     
     border-left: solid 10px rebeccapurple;
+    border-radius: 10px 10px;
+    background-color: rgb(247, 245, 245);
+
+    
   
 }
 
+
+
+#html, #css, #js
+{
+    margin-left: 20px;
+}
 
 /*HTML*/
 
 #html
 {
-    max-width: 200px;
-    margin-right: px;
-    margin-left: -230px;
+   
+    margin-right: 10px;
+    
 }
 
 #html img
 {
     width: 50px;  
-    margin-left: 345px;
+    margin-left: -5px;
     
 }
 
 
 
+
 .sobre
 {
-    margin-top: 10px;
+   
   
 }
 
 
+/*CSS*/
 #css
 {
-    max-width: 300px;
-    margin-left: 40px
+    margin-left: 10px;
+
 }
-/*CSS*/
+
 
 #css img
 {
-    margin-left: 345px;
+    
     width: 50px;  
 }
 
@@ -95,16 +117,20 @@ header p
 /*JavaScript*/
 #js
 {
-    max-width: 300px;
-    margin-left: -50px;
+    margin-top: -5px;
+    
+    
 }
 #js img
 {
-    margin-left: 300px;
+   
     width: 100px;
-    margin-right: 35px;
+    margin-right: 40px;
 }
 
 
  
-
+i
+{
+    font-size: 14px;
+}
